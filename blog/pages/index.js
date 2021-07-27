@@ -1,6 +1,18 @@
 import Head from "next/head";
 import Image from "next/image";
+import cherry from "../images/cherry-tree.png";
 
 export default function Home() {
-  return <h1 class="text-4xl text-center font-bold">Lord Ayush</h1>;
+  return (
+    <div className=" ">
+      <div className="w-full bg-sky-blue-500 h-96 "></div>
+      <div className="w-full h-auto relative">
+        <div className=" h-80 w-full bg-sky-blue-500 convex"></div>
+        <div className="relative tree -top-64 z-0">
+          <Image src={cherry} width={1000} height={700} />
+        </div>
+        <div className="absolute left-1/2 top-44 circle rounded-full bg-mint-green-500 z-10"></div>
+      </div>
+    </div>
+  );
 }

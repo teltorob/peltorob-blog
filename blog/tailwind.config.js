@@ -9,3 +9,30 @@ module.exports = {
   },
   plugins: [],
 };
+
+// tailwind.config.js
+const { colors: defaultColors } = require("tailwindcss/defaultTheme");
+
+const colors = {
+  ...defaultColors,
+  ...{
+    "sky-blue": {
+      500: "#AACEDE",
+    },
+    "mint-green": {
+      500: "#E2EFEB",
+    },
+    "custom-grey": {
+      500: "#F4F4F4",
+    },
+    "heading-green": {
+      500: "#117C7B",
+    },
+  },
+};
+
+module.exports = {
+  theme: {
+    colors: colors,
+  },
+};

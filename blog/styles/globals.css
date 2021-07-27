@@ -19,3 +19,18 @@ a {
 * {
   box-sizing: border-box;
 }
+.convex {
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.tree {
+  left: 50%;
+  margin-left: -500px;
+}
+
+.circle {
+  height: 600px;
+  width: 600px;
+  margin-left: -300px;
+}
