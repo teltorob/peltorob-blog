@@ -1,6 +1,6 @@
 export default function Tile() {
   return (
-    <div className=" mb-10 p-10 w-2/5 min-h-72 bg-gray-100 rounded-2xl">
+    <div className=" mb-10 p-10 w-full min-h-72 bg-gray-100 rounded-2xl">
       <h2 className=" text-xl font-semibold text-gray-800 pb-8">
         The unfair advantage of overconfidence
       </h2>
