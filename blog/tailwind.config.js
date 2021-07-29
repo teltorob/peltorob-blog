@@ -21,6 +21,7 @@ const colors = {
     },
     "mint-green": {
       500: "#E2EFEB",
+      600: "#c5e0d7",
     },
     "custom-grey": {
       500: "#F4F4F4",
