@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
+
 import cherry from "../images/cherry-tree.png";
-import Tile from "../components/Tile";
 import Arrow from "../symbols/arrow.png";
+
+import Tile from "../components/Tile";
+import Sub from "../components/Sub";
 
 export default function Home() {
   return (
@@ -84,6 +87,7 @@ export default function Home() {
           </div>
         </aside>
       </main>
+      <Sub />
     </>
   );
 }
