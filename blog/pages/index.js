@@ -6,6 +6,7 @@ import Arrow from "../symbols/arrow.png";
 
 import Tile from "../components/Tile";
 import Sub from "../components/Sub";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -88,6 +89,7 @@ export default function Home() {
         </aside>
       </main>
       <Sub />
+      <Footer />
     </>
   );
 }
