@@ -7,10 +7,11 @@ import Arrow from "../symbols/arrow.png";
 import Tile from "../components/Tile";
 import Sub from "../components/Sub";
 import Footer from "../components/Footer";
-
+import Nav from "../components/Nav";
 export default function Home() {
   return (
     <>
+      <Nav />
       <div>
         <div className="w-full bg-sky-blue-500 h-96 "></div>
         <div className="w-full h-auto relative">
