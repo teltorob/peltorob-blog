@@ -9,12 +9,12 @@ const Cloud = () => {
   return (
     <>
       <motion.div
-        initial={{ x: "-10rem" }}
-        animate={{ x: 1800 }}
+        initial={{ x: "-15rem" }}
+        animate={{ x: "calc(110vw)" }}
         transition={{
           delay: 0,
           repeat: Infinity,
-          duration: 50,
+          duration: 40,
           ease: "linear",
         }}
         className={` absolute z-20  ${RandomPos()} `}
@@ -24,11 +24,11 @@ const Cloud = () => {
 
       <motion.div
         initial={{ x: "-30rem" }}
-        animate={{ x: 1800 }}
+        animate={{ x: "calc(110vw)" }}
         transition={{
           delay: 8,
           repeat: Infinity,
-          duration: 60,
+          duration: 50,
           ease: "linear",
         }}
         className={` absolute z-20  ${RandomPos()} `}
@@ -37,12 +37,12 @@ const Cloud = () => {
       </motion.div>
       <motion.div
         initial={{ x: "-30rem" }}
-        animate={{ x: 1800 }}
+        animate={{ x: "calc(110vw)" }}
         transition={{
           delay: 16,
 
           repeat: Infinity,
-          duration: 60,
+          duration: 30,
           ease: "linear",
         }}
         className={` absolute z-20  ${RandomPos()} `}
@@ -51,7 +51,7 @@ const Cloud = () => {
       </motion.div>
       <motion.div
         initial={{ x: "-30rem" }}
-        animate={{ x: 1800 }}
+        animate={{ x: "calc(110vw)" }}
         transition={{
           delay: 28,
 
