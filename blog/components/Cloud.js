@@ -9,44 +9,55 @@ const Cloud = () => {
   return (
     <>
       <motion.div
-        initial={{ x: "-50rem" }}
+        initial={{ x: "-10rem" }}
         animate={{ x: 1800 }}
         transition={{
+          delay: 0,
           repeat: Infinity,
-          duration: 30,
+          duration: 50,
+          ease: "linear",
         }}
         className={` absolute z-20  ${RandomPos()} `}
       >
         <Cloud1 />
       </motion.div>
+
       <motion.div
-        initial={{ x: "-20rem" }}
+        initial={{ x: "-30rem" }}
         animate={{ x: 1800 }}
         transition={{
+          delay: 8,
           repeat: Infinity,
-          duration: 30,
+          duration: 60,
+          ease: "linear",
         }}
         className={` absolute z-20  ${RandomPos()} `}
       >
         <Cloud2 />
       </motion.div>
       <motion.div
-        initial={{ x: "-50rem" }}
+        initial={{ x: "-30rem" }}
         animate={{ x: 1800 }}
         transition={{
+          delay: 16,
+
           repeat: Infinity,
-          duration: 30,
+          duration: 60,
+          ease: "linear",
         }}
         className={` absolute z-20  ${RandomPos()} `}
       >
         <Cloud3 />
       </motion.div>
       <motion.div
-        initial={{ x: "-60rem" }}
+        initial={{ x: "-30rem" }}
         animate={{ x: 1800 }}
         transition={{
+          delay: 28,
+
           repeat: Infinity,
-          duration: 30,
+          duration: 60,
+          ease: "linear",
         }}
         className={` absolute z-20  ${RandomPos()} `}
       >
